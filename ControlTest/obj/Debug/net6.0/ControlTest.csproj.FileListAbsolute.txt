@@ -1,0 +1,15 @@
+F:\GIT учеба\FinalTest_june\ControlTest\bin\Debug\net6.0\ControlTest.exe
+F:\GIT учеба\FinalTest_june\ControlTest\bin\Debug\net6.0\ControlTest.deps.json
+F:\GIT учеба\FinalTest_june\ControlTest\bin\Debug\net6.0\ControlTest.runtimeconfig.json
+F:\GIT учеба\FinalTest_june\ControlTest\bin\Debug\net6.0\ControlTest.dll
+F:\GIT учеба\FinalTest_june\ControlTest\bin\Debug\net6.0\ControlTest.pdb
+F:\GIT учеба\FinalTest_june\ControlTest\obj\Debug\net6.0\ControlTest.csproj.AssemblyReference.cache
+F:\GIT учеба\FinalTest_june\ControlTest\obj\Debug\net6.0\ControlTest.GeneratedMSBuildEditorConfig.editorconfig
+F:\GIT учеба\FinalTest_june\ControlTest\obj\Debug\net6.0\ControlTest.AssemblyInfoInputs.cache
+F:\GIT учеба\FinalTest_june\ControlTest\obj\Debug\net6.0\ControlTest.AssemblyInfo.cs
+F:\GIT учеба\FinalTest_june\ControlTest\obj\Debug\net6.0\ControlTest.csproj.CoreCompileInputs.cache
+F:\GIT учеба\FinalTest_june\ControlTest\obj\Debug\net6.0\ControlTest.dll
+F:\GIT учеба\FinalTest_june\ControlTest\obj\Debug\net6.0\refint\ControlTest.dll
+F:\GIT учеба\FinalTest_june\ControlTest\obj\Debug\net6.0\ControlTest.pdb
+F:\GIT учеба\FinalTest_june\ControlTest\obj\Debug\net6.0\ControlTest.genruntimeconfig.cache
+F:\GIT учеба\FinalTest_june\ControlTest\obj\Debug\net6.0\ref\ControlTest.dll
