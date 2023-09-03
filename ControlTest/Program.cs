@@ -1,29 +1,27 @@
-﻿
-int size = ReadInt("Введите количество элементов массива: ");
-string [] array = new string [size];
-System.Console.Write($"[{string.Join(", ", FillArray(size))}]");
-
-
-string [] FillArray (int m)
+﻿int elements = 5;
+string [] startingArray = CreateArray(elements);
+string[] resultArray = new string [0];
+foreach (var item in startingArray)
 {
-    string [] arr = new string [m];
-    for (int i = 0; i < arr.Length; i++)
+    if (item.Length <= 3)
+    {
+    Array.Resize(ref resultArray, resultArray.Length + 1);
+    resultArray [resultArray.Length-1] = item;
+    }
+}
+Console.WriteLine($"[{String.Join(", ", startingArray.Select(s => $"\"{s}\""))}]");
+Console.WriteLine($"[{String.Join(", ", resultArray.Select(s => $"\"{s}\""))}]");
+
+
+
+
+string[] CreateArray(int m)
+{
+    string [] array = new string[m];
+    for (int i = 0; i < array.Length; i++)
     {
         System.Console.WriteLine("Введите значение элемента массива: ");
-        arr[i] = Console.ReadLine()!;
+        array[i] = Console.ReadLine()!;
     }
-    return arr;
-}
-
-
-int ReadInt(string argument)
-{
-    Console.Write(argument);
-    int i;
-    while (!int.TryParse(Console.ReadLine(), out i))
-    {
-        System.Console.WriteLine("Это не число!");
-        Console.Write(argument);
-    }
-    return i;
+    return array;
 }
