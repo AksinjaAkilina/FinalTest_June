@@ -13,8 +13,6 @@ Console.WriteLine($"[{String.Join(", ", startingArray.Select(s => $"\"{s}\""))}]
 Console.WriteLine($"[{String.Join(", ", resultArray.Select(s => $"\"{s}\""))}]");
 
 
-
-
 string[] CreateArray(int m)
 {
     string [] array = new string[m];
